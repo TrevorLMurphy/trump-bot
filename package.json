@@ -1,0 +1,22 @@
+{
+  "name": "trump-bot",
+  "version": "1.0.0",
+  "description": "A group-me bot that says some fairly rude things.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "director": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorLMurphy/trump-bot.git"
+  },
+  "author": "Trevor Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorLMurphy/trump-bot/issues"
+  },
+  "homepage": "https://github.com/TrevorLMurphy/trump-bot#readme"
+}
