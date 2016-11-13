@@ -4,7 +4,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /(Trump)|(Donald)|(money)|(America)/;
+      botRegex = /(Trump)|(Donald)|(money)|(America)|(Pussy)/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -47,6 +47,7 @@ function postMessage() {
              "long as you've got a young, and beautiful piece of ass.",
              "I would bring back waterboarding and I'd bring back a " +
              "hell of a lot worse than waterboarding.",
+             "Grab 'em by the pussy.",
              "Make America great again!"];
 
   var rand = trumpQuotes[Math.floor(Math.random() * trumpQuotes.length)];
